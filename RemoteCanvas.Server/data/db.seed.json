@@ -1,0 +1,583 @@
+{
+  "pages": [
+    {
+      "id": "main_menu_a",
+      "children": [
+        {
+          "type": "banner",
+          "dataUrl": "/active_banner"
+        },
+        {
+          "type": "text",
+          "value": "MysticalBattle",
+          "style": "h1",
+          "align": "center"
+        },
+        {
+          "type": "image",
+          "url": "https://picsum.photos/seed/sdui_main_a/600/200"
+        },
+        {
+          "type": "button",
+          "label": {
+            "en": "News",
+            "ru": "Новости"
+          },
+          "action": "open_news",
+          "height": 60
+        },
+        {
+          "type": "container",
+          "orientation": "vertical",
+          "spacing": 12,
+          "children": [
+            {
+              "type": "button",
+              "label": {
+                "en": "> Play",
+                "ru": "> Играть"
+              },
+              "action": "start_game",
+              "height": 60
+            },
+            {
+              "type": "button",
+              "label": {
+                "en": "Shop",
+                "ru": "Магазин"
+              },
+              "action": "open_shop",
+              "height": 60
+            },
+            {
+              "type": "button",
+              "label": {
+                "en": "Gallery",
+                "ru": "Галерея"
+              },
+              "action": "open_gallery",
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main_menu_b",
+      "children": [
+        {
+          "type": "banner",
+          "dataUrl": "/active_banner"
+        },
+        {
+          "type": "image",
+          "url": "https://picsum.photos/seed/sdui_main_b/600/200"
+        },
+        {
+          "type": "text",
+          "value": {
+            "en": "Welcome back!",
+            "ru": "С возвращением!"
+          },
+          "style": "h1",
+          "align": "center"
+        },
+        {
+          "type": "text",
+          "value": {
+            "en": "Ready to play?",
+            "ru": "Готов играть?"
+          },
+          "style": "body",
+          "align": "center"
+        },
+        {
+          "type": "container",
+          "orientation": "horizontal",
+          "spacing": 12,
+          "height": 200,
+          "children": [
+            {
+              "type": "button",
+              "label": {
+                "en": "Play Now",
+                "ru": "Играть"
+              },
+              "action": "start_game"
+            },
+            {
+              "type": "button",
+              "label": {
+                "en": "Shop",
+                "ru": "Магазин"
+              },
+              "action": "open_shop"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": {
+            "en": "Gallery",
+            "ru": "Галерея"
+          },
+          "action": "open_gallery",
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "halloween_event",
+      "children": [
+        {
+          "type": "image",
+          "url": "https://picsum.photos/seed/sdui_halloween/600/200"
+        },
+        {
+          "type": "text",
+          "value": {
+            "en": "Halloween Event!",
+            "ru": "Хэллоуин!"
+          },
+          "style": "h1"
+        },
+        {
+          "type": "text",
+          "value": {
+            "en": "Collect pumpkins to unlock exclusive rewards",
+            "ru": "Собирай тыквы и получай эксклюзивные награды"
+          },
+          "style": "body"
+        },
+        {
+          "type": "text",
+          "value": {
+            "en": "Event ends Oct 31",
+            "ru": "Событие заканчивается 31 октября"
+          },
+          "style": "caption"
+        },
+        {
+          "type": "container",
+          "orientation": "horizontal",
+          "spacing": 12,
+          "height": 200,
+          "children": [
+            {
+              "type": "button",
+              "label": {
+                "en": "Claim Reward",
+                "ru": "Забрать награду"
+              },
+              "action": "claim_reward:halloween_daily"
+            },
+            {
+              "type": "button",
+              "label": {
+                "en": "Open Shop",
+                "ru": "Магазин"
+              },
+              "action": "open_shop"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": {
+            "en": "Back",
+            "ru": "Назад"
+          },
+          "action": "back"
+        }
+      ]
+    },
+    {
+      "id": "daily_bonus",
+      "children": [
+        {
+          "type": "text",
+          "value": {
+            "en": "Daily Bonus",
+            "ru": "Ежедневный бонус"
+          },
+          "style": "h1"
+        },
+        {
+          "type": "container",
+          "orientation": "horizontal",
+          "spacing": 8,
+          "children": [
+            {
+              "type": "image",
+              "url": "https://picsum.photos/seed/sdui_gem/80/80"
+            },
+            {
+              "type": "container",
+              "orientation": "vertical",
+              "spacing": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "value": {
+                    "en": "500 Gems",
+                    "ru": "500 Кристаллов"
+                  },
+                  "style": "h1"
+                },
+                {
+                  "type": "text",
+                  "value": {
+                    "en": "Come back tomorrow for more!",
+                    "ru": "Возвращайся завтра за новыми наградами!"
+                  },
+                  "style": "body"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": {
+            "en": "Collect",
+            "ru": "Забрать"
+          },
+          "action": "claim_reward:daily_gems"
+        },
+        {
+          "type": "button",
+          "label": {
+            "en": "Back",
+            "ru": "Назад"
+          },
+          "action": "back"
+        }
+      ]
+    },
+    {
+      "id": "shop",
+      "children": [
+        {
+          "type": "text",
+          "value": {
+            "en": "Shop",
+            "ru": "Магазин"
+          },
+          "style": "header"
+        },
+        {
+          "type": "container",
+          "orientation": "vertical",
+          "spacing": 16,
+          "children": [
+            {
+              "type": "container",
+              "orientation": "horizontal",
+              "spacing": 12,
+              "children": [
+                {
+                  "type": "image",
+                  "url": "https://picsum.photos/seed/sdui_pack1/80/80"
+                },
+                {
+                  "type": "container",
+                  "orientation": "vertical",
+                  "spacing": 4,
+                  "flexibleWidth": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": {
+                        "en": "Starter Pack",
+                        "ru": "Стартовый набор"
+                      },
+                      "style": "body"
+                    },
+                    {
+                      "type": "text",
+                      "value": {
+                        "en": "1000 Gems + 5 Boosters",
+                        "ru": "1000 Кристаллов + 5 Бустеров"
+                      },
+                      "style": "caption"
+                    }
+                  ]
+                },
+                {
+                  "type": "button",
+                  "label": "$0.99",
+                  "action": "purchase:starter_pack",
+                  "width": 150
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "orientation": "horizontal",
+              "spacing": 12,
+              "children": [
+                {
+                  "type": "image",
+                  "url": "https://picsum.photos/seed/sdui_pack2/80/80"
+                },
+                {
+                  "type": "container",
+                  "orientation": "vertical",
+                  "spacing": 4,
+                  "flexibleWidth": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": {
+                        "en": "Mega Pack",
+                        "ru": "Мега набор"
+                      },
+                      "style": "body"
+                    },
+                    {
+                      "type": "text",
+                      "value": {
+                        "en": "5000 Gems + 20 Boosters",
+                        "ru": "5000 Кристаллов + 20 Бустеров"
+                      },
+                      "style": "caption"
+                    }
+                  ]
+                },
+                {
+                  "type": "button",
+                  "label": "$4.99",
+                  "action": "purchase:mega_pack",
+                  "width": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": {
+            "en": "Close",
+            "ru": "Закрыть"
+          },
+          "action": "close",
+          "backgroundColor": "#E53935",
+          "textColor": "#FFFFFF",
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "children": [
+        {
+          "type": "text",
+          "value": {
+            "en": "News",
+            "ru": "Новости"
+          },
+          "style": "h1"
+        },
+        {
+          "type": "news_feed",
+          "dataUrl": "/news",
+          "limit": 10,
+          "minHeight": 200
+        },
+        {
+          "type": "button",
+          "label": {
+            "en": "Back",
+            "ru": "Назад"
+          },
+          "action": "back"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "children": [
+        {
+          "type": "text",
+          "value": {
+            "en": "Gallery",
+            "ru": "Галерея"
+          },
+          "style": "h1"
+        },
+        {
+          "type": "gallery",
+          "dataUrl": "/gallery_items",
+          "columns": 2,
+          "cellWidth": 300,
+          "cellHeight": 300
+        },
+        {
+          "type": "button",
+          "label": {
+            "en": "Back",
+            "ru": "Назад"
+          },
+          "action": "back"
+        }
+      ]
+    }
+  ],
+  "banners": [
+    {
+      "id": "summer_sale",
+      "title": {
+        "en": "Summer Sale!",
+        "ru": "Летняя распродажа!"
+      },
+      "subtitle": {
+        "en": "Up to 50% off all packs",
+        "ru": "Скидки до 50% на все наборы"
+      },
+      "ctaLabel": {
+        "en": "Shop Now",
+        "ru": "В магазин"
+      },
+      "imageUrl": "https://picsum.photos/seed/banner_summer/600/200",
+      "action": "open_shop",
+      "active": false
+    },
+    {
+      "id": "halloween_promo",
+      "title": {
+        "en": "Halloween Event",
+        "ru": "Хэллоуин"
+      },
+      "subtitle": {
+        "en": "Collect pumpkins, win prizes",
+        "ru": "Собирай тыквы и выигрывай призы"
+      },
+      "ctaLabel": {
+        "en": "Join Event",
+        "ru": "Участвовать"
+      },
+      "imageUrl": "https://picsum.photos/seed/banner_halloween/600/200",
+      "action": "open_event",
+      "active": false
+    },
+    {
+      "id": "new_season",
+      "title": {
+        "en": "Season 4 is here!",
+        "ru": "Сезон 4 начался!"
+      },
+      "subtitle": {
+        "en": "New heroes, new battles",
+        "ru": "Новые герои, новые битвы"
+      },
+      "ctaLabel": {
+        "en": "Play Now",
+        "ru": "Играть"
+      },
+      "imageUrl": "https://picsum.photos/seed/banner_season/600/200",
+      "action": "start_game",
+      "active": true
+    }
+  ],
+  "news": [
+    {
+      "id": "news_001",
+      "title": {
+        "en": "Season 4 Launch",
+        "ru": "Запуск сезона 4"
+      },
+      "body": {
+        "en": "New heroes, new battles. Season 4 is officially live!",
+        "ru": "Новые герои, новые сражения. 4-й сезон официально стартовал!"
+      },
+      "imageUrl": "https://picsum.photos/seed/news_001/400/200",
+      "action": "open_event",
+      "publishedAt": "2024-10-01T10:00:00Z",
+      "pinned": true
+    },
+    {
+      "id": "news_002",
+      "title": {
+        "en": "Halloween Event Starts",
+        "ru": "Начало хэллоуинского события"
+      },
+      "body": {
+        "en": "Collect pumpkins and unlock exclusive Halloween rewards.",
+        "ru": "Собирайте тыквы и открывайте эксклюзивные награды к Хэллоуину."
+      },
+      "imageUrl": "https://picsum.photos/seed/news_002/400/200",
+      "action": "open_event",
+      "publishedAt": "2024-10-15T10:00:00Z",
+      "pinned": false
+    },
+    {
+      "id": "news_003",
+      "title": {
+        "en": "Balance Update",
+        "ru": "Обновление баланса"
+      },
+      "body": {
+        "en": "Several heroes have been rebalanced. Check the patch notes.",
+        "ru": "Несколько героев были перебалансированы. Ознакомьтесь с описанием обновления."
+      },
+      "imageUrl": "",
+      "action": "",
+      "publishedAt": "2024-10-20T10:00:00Z",
+      "pinned": false
+    },
+    {
+      "id": "news_004",
+      "title": {
+        "en": "Double XP Weekend",
+        "ru": "Уикенд двойного опыта"
+      },
+      "body": {
+        "en": "Earn double XP on all matches this weekend only!",
+        "ru": "Только в эти выходные получайте двойной опыт во всех матчах!"
+      },
+      "imageUrl": "https://picsum.photos/seed/news_004/400/200",
+      "action": "start_game",
+      "publishedAt": "2024-10-25T10:00:00Z",
+      "pinned": false
+    }
+  ],
+  "gallery_items": [
+    {
+      "id": "item_1",
+      "title": {
+        "en": "Forest Spirit",
+        "ru": "Лесной дух"
+      },
+      "imageUrl": "https://picsum.photos/seed/gallery1/400/300",
+      "likes": 42
+    },
+    {
+      "id": "item_2",
+      "title": {
+        "en": "Crystal Cave",
+        "ru": "Кристальная пещера"
+      },
+      "imageUrl": "https://picsum.photos/seed/gallery2/400/300",
+      "likes": 18
+    },
+    {
+      "id": "item_3",
+      "title": {
+        "en": "Storm Dragon",
+        "ru": "Грозовой дракон"
+      },
+      "imageUrl": "https://picsum.photos/seed/gallery3/400/300",
+      "likes": 89
+    },
+    {
+      "id": "item_4",
+      "title": {
+        "en": "Moon Witch",
+        "ru": "Лунная ведьма"
+      },
+      "imageUrl": "https://picsum.photos/seed/gallery4/400/300",
+      "likes": 31
+    }
+  ],
+  "liked_items": []
+}

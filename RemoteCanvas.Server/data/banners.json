@@ -1,0 +1,58 @@
+{
+  "banners": [
+    {
+      "id": "summer_sale",
+      "title": {
+        "en": "Summer Sale!",
+        "ru": "Летняя распродажа!"
+      },
+      "subtitle": {
+        "en": "Up to 50% off all packs",
+        "ru": "Скидки до 50% на все наборы"
+      },
+      "ctaLabel": {
+        "en": "Shop Now",
+        "ru": "В магазин"
+      },
+      "imageUrl": "https://picsum.photos/seed/banner_summer/600/200",
+      "action": "open_shop",
+      "active": true
+    },
+    {
+      "id": "halloween_promo",
+      "title": {
+        "en": "Halloween Event",
+        "ru": "Событие Хэллоуин"
+      },
+      "subtitle": {
+        "en": "Collect pumpkins, win prizes",
+        "ru": "Собирай тыквы и выигрывай призы"
+      },
+      "ctaLabel": {
+        "en": "Join Event",
+        "ru": "Участвовать"
+      },
+      "imageUrl": "https://picsum.photos/seed/banner_halloween/600/200",
+      "action": "open_event",
+      "active": false
+    },
+    {
+      "id": "new_season",
+      "title": {
+        "en": "Season 4 is here!",
+        "ru": "Сезон 4 начался!"
+      },
+      "subtitle": {
+        "en": "New heroes, new battles",
+        "ru": "Новые герои, новые битвы"
+      },
+      "ctaLabel": {
+        "en": "Play Now",
+        "ru": "Играть"
+      },
+      "imageUrl": "https://picsum.photos/seed/banner_season/600/200",
+      "action": "start_game",
+      "active": false
+    }
+  ]
+}

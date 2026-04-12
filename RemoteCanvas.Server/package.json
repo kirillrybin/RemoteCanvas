@@ -1,0 +1,17 @@
+{
+  "name": "sdui-mock-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon",
+    "start:8080": "cross-env PORT=8080 node server.js",
+    "dev:8080": "cross-env PORT=8080 nodemon"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "nodemon": "^3.0.0"
+  }
+}

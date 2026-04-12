@@ -1,0 +1,21 @@
+﻿{
+  "name": "SDUI.Runtime",
+  "rootNamespace": "SDUI",
+  "references": [
+    "SDUI",
+    "UniTask",
+    "Unity.TextMeshPro",
+    "VContainer"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
