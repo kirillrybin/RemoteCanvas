@@ -1,0 +1,2 @@
+*.shader linguist-vendored=true
+*.hlsl linguist-vendored=true
