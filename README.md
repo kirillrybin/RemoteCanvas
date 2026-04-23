@@ -41,7 +41,7 @@ Query params: `?userId=` for A/B group resolution, `?lang=` for localization (`e
 
 ## Unity
 
-1. Open `RemoteCanvas.Unity` in Unity 2022.3+
+1. Open `RemoteCanvas.Unity` in Unity 2022.3+ — entry scene is `Assets/Scenes/RemoteCanvas.unity`
 2. Set `BaseUrl` in `SDUIConfig` asset (e.g. `http://localhost:3000`)
 3. Start the server first (see [Server](#server) section), then press Play — opens `main_menu`
 

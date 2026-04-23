@@ -41,7 +41,7 @@ Query-параметры: `?userId=` для выбора A/B-варианта, `
 
 ## Unity
 
-1. Открыть `RemoteCanvas.Unity` в Unity 2022.3+
+1. Открыть `RemoteCanvas.Unity` в Unity 2022.3+ — стартовая сцена `Assets/Scenes/RemoteCanvas.unity`
 2. Указать `BaseUrl` в ассете `SDUIConfig` (например `http://localhost:3000`)
 3. Сначала запустите сервер (см. раздел [Server](#server)), затем нажмите Play — откроется `main_menu`
 
