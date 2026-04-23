@@ -43,7 +43,7 @@ Query-параметры: `?userId=` для выбора A/B-варианта, `
 
 1. Открыть `RemoteCanvas.Unity` в Unity 2022.3+
 2. Указать `BaseUrl` в ассете `SDUIConfig` (например `http://localhost:3000`)
-3. Запустить Play — откроется страница `main_menu`
+3. Сначала запустите сервер (см. раздел [Server](#server)), затем нажмите Play — откроется `main_menu`
 
 Подключаемые зависимости через UPM:
 
