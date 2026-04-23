@@ -2,6 +2,8 @@
 
 # RemoteCanvas
 
+![RemoteCanvas demo](demo.gif)
+
 Unity-демо для [com.kiriyo.sdui](https://github.com/kirillrybin/com.kiriyo.sdui) — фреймворка Server-Driven UI, где сервер управляет интерфейсом, контентом и навигацией в рантайме без обновления клиента.
 
 ## Структура

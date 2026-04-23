@@ -2,6 +2,8 @@
 
 # RemoteCanvas
 
+![RemoteCanvas demo](demo.gif)
+
 Unity demo for [com.kiriyo.sdui](https://github.com/kirillrybin/com.kiriyo.sdui) — a Server-Driven UI framework where the server controls layout, content, and navigation at runtime.
 
 ## Structure
